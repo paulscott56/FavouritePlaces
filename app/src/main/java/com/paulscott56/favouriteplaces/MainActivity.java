@@ -333,7 +333,7 @@ public class MainActivity extends AppCompatActivity {
         //Load beacon prefs.
         sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
 
-        // get mycroft-core ip address
+        // get the location service ip
         wsip = sharedPref.getString("ip", "http://localhost:9319");
         if (wsip.isEmpty()) {
             // eep, show the settings intent!

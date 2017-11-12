@@ -15,7 +15,7 @@
     <string name="pref_title_display_name">Display name</string>
     <string name="pref_default_display_name">John Smith</string>
 
-    <string name="pref_title_default_ip">Mycroft IP address</string>
+    <string name="pref_title_default_ip">Favourit places IP address</string>
     <string name="pref_default_display_ip">192.168.0.2</string>
 
     <string name="pref_title_app_reader_switch">App Reader</string>
@@ -83,11 +83,11 @@
 
     <string name="pref_title_vibrate">Vibrate</string>
 
-    <string name="speech_prompt">Say something to Mycroft&#8230;</string>
+    <string name="speech_prompt">Say something&#8230;</string>
     <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
-    <string name="websocket_connected">Connected to Mycroft!</string>
-    <string name="websocket_closed">Connection to Mycroft has closed! Please re-connect and check connection settings!</string>
-    <string name="websocket_error">Connection error! Please ensure Mycroft is available and on the same network as your device!</string>
+    <string name="websocket_connected">Connected to Places!</string>
+    <string name="websocket_closed">Connection to PlacesAPI has closed! Please re-connect and check connection settings!</string>
+    <string name="websocket_error">Connection error! Please ensure PlacesAPI is available!</string>
 
     <string name="connect">Connect</string>
     <string name="discover">Discover</string>
@@ -100,9 +100,9 @@
     <string name="pref_default_maximum_retries">1</string>
     <string name="pref_title_maximum_retries">Maximum Retries</string>
     <string name="action_about">About</string>
-    <string name="action_home_mycroft_ai">Mycroft Management Website</string>
+    <string name="action_home_mycroft_ai">PlacsAPI Management Website</string>
     <string name="title_activity_about">About</string>
-    <string name="title_activity_home_mycroft_ai">Home.Mycroft.AI</string>
+    <string name="title_activity_home_mycroft_ai">Home.placesAPI</string>
     <string name="pref_header_about">About</string>
     <string name="version_code_title">Version Code</string>
     <string name="version_name_title">Version Name</string>
@@ -128,8 +128,8 @@
     <string name="bluetooth_not_supported_message">Sorry, this device does not support Bluetooth LE.</string>
 
     //Beacon notification
-    <string name="beacon_notification_title">Mycroft Beacon</string>
-    <string name="beacon_notification_content">An beacon is nearby.</string>
+    <string name="beacon_notification_title">PlacesAPI Beacon</string>
+    <string name="beacon_notification_content">A beacon is nearby.</string>
     <string name="beacon_activity">Beacons</string>
     <string name="title_activity_settings">Settings</string>
 </resources>
